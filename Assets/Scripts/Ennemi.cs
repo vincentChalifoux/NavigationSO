@@ -25,5 +25,7 @@ public class Ennemi : MonoBehaviour
     void OnMouseDown()
     {
         /*ici*/ //declenche la methode PerdreVie avec le Singleton de GestNiveau
+        GestNiveau.instance.PerdreVie();
     }
+
 }

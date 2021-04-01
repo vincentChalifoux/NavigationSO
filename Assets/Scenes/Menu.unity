@@ -205,7 +205,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 25450934}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 5004230cbaecb814d812d3bf7f031507, type: 2}
+        m_TargetAssemblyTypeName: InfosNavig, Assembly-CSharp
+        m_MethodName: Initialiser
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 5004230cbaecb814d812d3bf7f031507, type: 2}
+        m_TargetAssemblyTypeName: InfosNavig, Assembly-CSharp
+        m_MethodName: AllerNiveauSuivant
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 8884b3114829f97428148a7d16b7127c, type: 2}
+        m_TargetAssemblyTypeName: InfosJoueur, Assembly-CSharp
+        m_MethodName: Initialiser
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &25450934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,7 +1090,19 @@ MonoBehaviour:
       m_Calls: []
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 8884b3114829f97428148a7d16b7127c, type: 2}
+        m_TargetAssemblyTypeName: InfosJoueur, Assembly-CSharp
+        m_MethodName: set_nomIntermediaire
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnTouchScreenKeyboardStatusChanged:
     m_PersistentCalls:
       m_Calls: []
